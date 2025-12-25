@@ -147,11 +147,40 @@ Stay informed with real-time notifications:
 
 ## 🛠️ Getting Started
 
+### Local Development
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/atiqisrak/repos.git
+   cd repos/client
+   ```
+
+2. Install dependencies
+
+   ```bash
+   pnpm install
+   ```
+
+3. Run the development server
+
+   ```bash
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3032](http://localhost:3032) in your browser
+
+### Using the Dashboard
+
 1. **Access the Dashboard** - Navigate to the dashboard to see your restaurant overview
 2. **Monitor Metrics** - Check the key metrics cards for current status
 3. **View Sales** - Review the sales analytics chart for performance insights
 4. **Track Activity** - Monitor the live activity feed for real-time updates
 5. **Navigate** - Use the top menu to access different sections of the system
+
+### Deployment
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions to Vercel or other platforms.
 
 ## 📝 Notes
 
